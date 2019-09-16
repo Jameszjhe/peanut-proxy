@@ -1,0 +1,23 @@
+{
+  "name": "peanut-proxy",
+  "version": "1.0.0",
+  "description": "A http proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameszjhe/peanut-proxy.git"
+  },
+  "keywords": [
+    "HTTP",
+    "PROXY"
+  ],
+  "author": "James Z.J. He",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameszjhe/peanut-proxy/issues"
+  },
+  "homepage": "https://github.com/Jameszjhe/peanut-proxy#readme"
+}
