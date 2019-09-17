@@ -2,7 +2,8 @@
   "name": "peanut-proxy",
   "version": "1.0.0",
   "description": "A http proxy",
-  "main": "index.js",
+  "main": "lib/server.js",
+  "bin": "bin/peanut-proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/Jameszjhe/peanut-proxy/issues"
   },
-  "homepage": "https://github.com/Jameszjhe/peanut-proxy#readme"
+  "homepage": "https://github.com/Jameszjhe/peanut-proxy#readme",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0"
+  }
 }
